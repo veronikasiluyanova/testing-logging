@@ -4,10 +4,10 @@ namespace AirAsiaAutomation.Models
 {
     public class MainPageData
     {
-        public string DeparturePlace { get; }
-        public string ArrivalPlace { get; }
-        public string LeaveDate { get; }
-        public string ReturnDate { get; }
+        public string DeparturePlace;
+        public string ArrivalPlace;
+        public string LeaveDate;
+        public string ReturnDate;
 
         public MainPageData (string departure, string arrival, string leaveDate, string returnDate)
         {

@@ -4,9 +4,9 @@ namespace AirAsiaAutomation.Models
 {
     public class SearchHotelPageData
     {
-        public string Destination { get; }
-        public string CheckInDate { get; }
-        public string CheckOutDate { get; }
+        public string Destination;
+        public string CheckInDate;
+        public string CheckOutDate;
 
         public SearchHotelPageData(string destination, string checkIn, string checkOut)
         {
