@@ -39,7 +39,7 @@ namespace AirAsiaAutomation.Driver
         {
             driver.Quit();
             Logger.Log.Info("Driver closed");
-            driver.Dispose();
+            driver = null;
         }
     }
 }
